@@ -26,7 +26,6 @@ Import this repo in Vercel. It detects Vite automatically (build: `npm run build
 ## To finish before going live
 
 - **Images:** `public/images/*.svg` are blue placeholders. Add real photos and update the paths in `images` in `src/content/site.ts`. The live site's photos are Getty stock licensed through GoDaddy, which may not cover use outside GoDaddy.
-- **Logo:** `src/components/Logo.tsx` is a text logo. Swap in your logo image.
 - **Social links:** fill in `site.social` in `src/content/site.ts`. Icons appear only once a URL is set.
 - **Contact and job forms:** it currently opens the visitor's email app addressed to admin@vibrantcare.health. To receive submissions directly, connect a form service or a Vercel function.
 - **Privacy Policy / Terms:** `src/pages/Legal.tsx` holds placeholder text.
