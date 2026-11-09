@@ -12,10 +12,10 @@ import NotFound from "./pages/NotFound";
 
 const titles: Record<string, string> = {
   "/": "Vibrant Care — Compassionate Home Care in Houston, TX",
-  "/services": "Services — Vibrant Care",
-  "/about": "About — Vibrant Care",
-  "/careers": "Careers — Vibrant Care",
-  "/contact": "Contact — Vibrant Care",
+  "/services": "Our Services — Vibrant Care Houston Home Care",
+  "/about": "About Us — Vibrant Care Houston Home Care",
+  "/careers": "Caregiver Jobs Houston — Vibrant Care Careers",
+  "/contact": "Contact Houston Home Care | Vibrant Care",
 };
 
 function ScrollManager() {

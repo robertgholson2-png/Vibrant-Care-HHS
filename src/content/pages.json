@@ -1,0 +1,706 @@
+{
+  "about": {
+    "hero": {
+      "headline": "Home Care Built Different — Because Family Changes Everything",
+      "subheadline": "Vibrant Care was founded on one belief: the people who love a senior most are often the best people to care for them. We built a company around that idea."
+    },
+    "story": {
+      "section_label": "Our Story",
+      "headline": "Built Different, on Purpose",
+      "paragraphs": [
+        {
+          "id": "p1",
+          "text": "My name is Robert Gholson, and I founded Vibrant Care because I knew home care could be done better. I spent four years working inside my father's home health care company, and my family has been in this industry for over 25 years. I've seen firsthand what works — and what falls short for families who need real support."
+        },
+        {
+          "id": "p2",
+          "text": "What I kept seeing was families already doing the work — adult children, siblings, close relatives showing up every day to care for someone they loved — but receiving nothing for it. I wanted to build something different: a company that pays eligible family members to do what they're already doing, with the training and backing to do it well."
+        },
+        {
+          "id": "p3",
+          "text": "That's the heart of Vibrant Care. We're not an ordinary home care company. We exist to keep families together, compensate the people doing the work of love, and make sure no senior is left without options. For those without an eligible family caregiver, our professional team brings that same standard of care — so every family has a path forward."
+        }
+      ]
+    },
+    "mission": {
+      "section_label": "Our Mission",
+      "headline": "Keeping Houston Seniors Home — With People They Trust",
+      "statement": "To empower eligible family members with the training, support, and compensation they need to care for their loved ones at home — and to provide trusted professional caregivers for every family that needs one.",
+      "values": [
+        {
+          "id": "v1",
+          "title": "Built to Be Different",
+          "description": "We didn't set out to be another ordinary home care company. We built Vibrant Care specifically to pay and support the family members who are already showing up — because that's where the best care starts."
+        },
+        {
+          "id": "v2",
+          "title": "Flexible to Fit Your Family",
+          "description": "Every family's situation is different. Whether you want a family member trained and paid to provide care, or you need a trusted professional caregiver to step in — we tailor our support to fit what works best for you."
+        },
+        {
+          "id": "v3",
+          "title": "In-Home, on Your Terms",
+          "description": "Care happens in the home your loved one knows and trusts. We work around your schedule, your needs, and your family's comfort — not the other way around."
+        },
+        {
+          "id": "v4",
+          "title": "No One Left Without Care",
+          "description": "If no eligible family member is available, our professional caregivers bring the same warmth and standard of care. Every family has a path forward with Vibrant Care."
+        }
+      ]
+    },
+    "team": {
+      "section_label": "Meet Our Team",
+      "headline": "The People Behind the Program",
+      "subheadline": "Our team guides families through every step — from eligibility and enrollment to training, scheduling, and ongoing support. We're with you from day one.",
+      "members": [
+        {
+          "id": "m1",
+          "name": "Robert Gholson",
+          "role": "Founder & CEO",
+          "bio": "Robert founded Vibrant Care after four years working in his father's home health care company and 25 years of family experience in the industry. He built Vibrant Care to do things differently — putting families first and paying the people who are already showing up."
+        },
+        {
+          "id": "m2",
+          "name": "David Chen",
+          "role": "Director of Caregiver Training",
+          "bio": "David leads our training programs for both family caregivers and professional staff, ensuring every caregiver feels confident, prepared, and supported in their role."
+        },
+        {
+          "id": "m3",
+          "name": "Priya Patel",
+          "role": "Family Enrollment Coordinator",
+          "bio": "Priya helps families understand the eligibility process, walks them through enrollment, and makes sure every caregiver and client is set up for success from the very start."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Ready to find out if your family qualifies?",
+      "body": "We'll walk you through the eligibility requirements, answer your questions, and help you get started — at no cost to you.",
+      "button_label": "See If You Qualify",
+      "secondary_label": "Call (832) 308-8532"
+    }
+  },
+  "careers": {
+    "hero": {
+      "headline": "Get Paid to Become a Family Caregiver",
+      "subheadline": "If you're already caring for an eligible family member, Vibrant Care can train you, support you, and compensate you for the work you're already doing. We also hire professional caregivers for families who need one."
+    },
+    "why": {
+      "section_label": "Why Join Vibrant Care",
+      "headline": "More Than a Job — A Calling",
+      "body": "Whether you're a family member stepping into a caregiver role or a professional looking for meaningful work, Vibrant Care gives you the tools, training, and support to do it well.",
+      "perks": [
+        {
+          "id": "pk1",
+          "title": "Compensation for Family Caregivers",
+          "description": "Eligible family members can receive pay for the care they provide — we walk you through every step of the process."
+        },
+        {
+          "id": "pk2",
+          "title": "Free Training Provided",
+          "description": "No experience needed. We provide comprehensive caregiver training at no cost to you before you begin."
+        },
+        {
+          "id": "pk3",
+          "title": "Flexible Scheduling",
+          "description": "Care on a schedule that works for your family — full-time, part-time, or as-needed hours available."
+        },
+        {
+          "id": "pk4",
+          "title": "Ongoing Support",
+          "description": "Our care coordinators are available to answer questions, provide guidance, and support you throughout your caregiving journey."
+        },
+        {
+          "id": "pk5",
+          "title": "Meaningful Work",
+          "description": "Know that your care is making a real difference — keeping your loved one safe, comfortable, and at home."
+        },
+        {
+          "id": "pk6",
+          "title": "Professional Caregiver Roles",
+          "description": "For experienced caregivers, we offer positions serving clients who don't have eligible family members available."
+        }
+      ]
+    },
+    "openings": [
+      {
+        "id": "j1",
+        "title": "Family Caregiver (Paid Program)",
+        "type": "Full-time / Part-time",
+        "location": "Houston, TX",
+        "description": "Are you caring for an eligible family member? Vibrant Care can enroll you in our paid family caregiver program. We provide all required training and ongoing support — no prior experience necessary.",
+        "requirements": [
+          {
+            "id": "r1",
+            "text": "Must be an eligible family member of the person receiving care"
+          },
+          {
+            "id": "r2",
+            "text": "Client must qualify for home care services under HHSC guidelines"
+          },
+          {
+            "id": "r3",
+            "text": "No prior caregiving experience required — training is provided"
+          },
+          {
+            "id": "r4",
+            "text": "Must pass background check"
+          }
+        ]
+      },
+      {
+        "id": "j2",
+        "title": "Personal Care Attendant (PCA)",
+        "type": "Full-time / Part-time",
+        "location": "Houston, TX (Multiple Areas)",
+        "description": "Provide personal care, companionship, and daily living assistance to clients who do not have an eligible family caregiver. We train you — no certification required to apply.",
+        "requirements": [
+          {
+            "id": "r5",
+            "text": "No prior certification required — we provide full training"
+          },
+          {
+            "id": "r6",
+            "text": "Genuine passion for helping others"
+          },
+          {
+            "id": "r7",
+            "text": "Reliable transportation and valid driver's license"
+          },
+          {
+            "id": "r8",
+            "text": "Must pass background check and drug screening"
+          }
+        ]
+      },
+      {
+        "id": "j3",
+        "title": "Certified Home Health Aide (HHA)",
+        "type": "Full-time / Part-time",
+        "location": "Houston, TX (Multiple Areas)",
+        "description": "Use your HHA certification to serve Houston seniors who need a trusted, professional caregiver. Join a team that values your skills and supports your growth.",
+        "requirements": [
+          {
+            "id": "r9",
+            "text": "Valid Texas HHA or CNA certification"
+          },
+          {
+            "id": "r10",
+            "text": "Minimum 1 year of home care or facility experience preferred"
+          },
+          {
+            "id": "r11",
+            "text": "Reliable transportation and valid driver's license"
+          },
+          {
+            "id": "r12",
+            "text": "Must pass background check and drug screening"
+          }
+        ]
+      }
+    ],
+    "form": {
+      "headline": "Apply Today",
+      "subheadline": "Whether you're a family member or a professional caregiver, fill out the form below and our team will reach out within 1–2 business days.",
+      "success_title": "Application Received!",
+      "success_body": "Thank you for your interest in joining Vibrant Care. We'll review your information and be in touch within 1–2 business days."
+    }
+  },
+  "contact": {
+    "hero": {
+      "headline": "Care begins with a conversation",
+      "body": "Tell us what support your family needs. Our Houston care team will listen, answer your questions, and help you take the next step with confidence."
+    },
+    "details": {
+      "title": "Here when you need us",
+      "email": "admin@vibrantcare.health",
+      "service_area_title": "Proudly serving Houston families",
+      "service_area_body": "We provide compassionate in-home care across Houston and the surrounding communities. Share your location in the form, and we'll confirm how we can help.",
+      "consultation_title": "A free, no-pressure consultation",
+      "consultation_body": "Every family’s situation is different. We'll talk through care needs, timing, and the kind of support that would make life easier at home."
+    },
+    "form": {
+      "title": "Start your care conversation",
+      "body": "Complete this short form and a member of our team will be in touch.",
+      "name_label": "Your name",
+      "email_label": "Email address",
+      "phone_label": "Phone number",
+      "care_label": "What kind of support are you looking for?",
+      "care_options": [
+        "Personal care",
+        "Companionship",
+        "Meal preparation & grocery shopping",
+        "Light housekeeping",
+        "I'm not sure yet"
+      ],
+      "message_label": "Tell us a little about your family’s needs",
+      "submit_label": "Request a free consultation",
+      "success_message": "Thank you. Your message is on its way, and our team will be in touch soon."
+    }
+  },
+  "home": {
+    "hero": {
+      "headline": "Compassionate Care, Right at Home in Houston",
+      "subheadline": "We believe family makes the best caregivers. Vibrant Care supports you every step of the way in caring for your loved one at home — keeping them safe, comfortable, and surrounded by the people they trust most.",
+      "cta_primary": "See If You Qualify",
+      "cta_secondary": "Become a Family Caregiver",
+      "trust_badges": [
+        {
+          "id": "tb1",
+          "label": "Licensed & Insured in Texas"
+        },
+        {
+          "id": "tb2",
+          "label": "Background-Checked Caregivers"
+        },
+        {
+          "id": "tb3",
+          "label": "Serving Houston Since 2010"
+        },
+        {
+          "id": "tb4",
+          "label": "Available 24/7"
+        }
+      ]
+    },
+    "how_it_works": {
+      "headline": "Getting started is simple",
+      "subheadline": "Whether you're a family member becoming a paid caregiver or a family looking for professional care — we make every step easy.",
+      "family_steps": [
+        {
+          "id": "fs1",
+          "number": "01",
+          "title": "Free Enrollment Call",
+          "description": "Call us or fill out our form. We'll confirm your loved one's eligibility, answer every question, and walk you through the paid family caregiver program — no pressure, no obligation."
+        },
+        {
+          "id": "fs2",
+          "number": "02",
+          "title": "Training & Paperwork",
+          "description": "We handle all the enrollment paperwork and provide free training so you're fully prepared and certified to care for your loved one — on your schedule."
+        },
+        {
+          "id": "fs3",
+          "number": "03",
+          "title": "Start Getting Paid",
+          "description": "Once enrolled, you begin providing care and receiving compensation. We stay by your side with ongoing support, check-ins, and guidance every step of the way."
+        }
+      ],
+      "professional_steps": [
+        {
+          "id": "ps1",
+          "number": "01",
+          "title": "Free Consultation",
+          "description": "Call us or fill out our form. We'll listen to your family's needs, answer every question, and explain exactly how Vibrant Care works — no pressure, no obligation."
+        },
+        {
+          "id": "ps2",
+          "number": "02",
+          "title": "Personalized Care Plan",
+          "description": "We create a custom care plan tailored to your loved one's schedule, preferences, and health needs — then hand-match them with the right professional caregiver."
+        },
+        {
+          "id": "ps3",
+          "number": "03",
+          "title": "Care Begins",
+          "description": "Your caregiver arrives, ready to help. We check in regularly, adjust the plan as needs change, and stay available 24/7 for your family."
+        }
+      ],
+      "cta_label": "Start with a Free Consultation"
+    },
+    "trust": {
+      "section_label": "Why Families Choose Us",
+      "headline": "Houston Families Trust Vibrant Care",
+      "body": "We know choosing home care for someone you love is one of the most important decisions you'll ever make. Whether it's a family member stepping into a paid caregiver role or a trusted professional we place in the home — every Vibrant Care caregiver is carefully screened, trained, and matched to your family's unique needs. We go beyond ordinary home care to make sure every family has a solution that truly fits.",
+      "stats": [
+        {
+          "id": "st1",
+          "value": "500+",
+          "label": "Families Served"
+        },
+        {
+          "id": "st2",
+          "value": "3+",
+          "label": "Years in Houston"
+        },
+        {
+          "id": "st3",
+          "value": "98%",
+          "label": "Family Satisfaction"
+        },
+        {
+          "id": "st4",
+          "value": "24/7",
+          "label": "Care Availability"
+        }
+      ],
+      "testimonials": [
+        {
+          "id": "tm1",
+          "quote": "I had no idea I could get paid to care for my mom. Vibrant Care walked me through everything, provided the training, and now I'm her official caregiver. It's changed our lives.",
+          "author": "Sarah M.",
+          "location": "Houston, TX — Family Caregiver"
+        },
+        {
+          "id": "tm2",
+          "quote": "From the first phone call, I knew this was different. They listened, they understood, and they matched us with the perfect caregiver for my father.",
+          "author": "James R.",
+          "location": "Sugar Land, TX"
+        },
+        {
+          "id": "tm3",
+          "quote": "The caregiving team is exceptional. Having someone we trust care for my husband at home has made all the difference — we're grateful every day.",
+          "author": "Linda T.",
+          "location": "The Woodlands, TX"
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Your loved one deserves the best care Houston has to offer.",
+      "body": "Let's talk about what Vibrant Care can do for your family. A free consultation is just one call away — no pressure, no obligation, just a caring conversation.",
+      "button_label": "Request a Free Consultation",
+      "secondary_label": "Call (832) 308-8532"
+    }
+  },
+  "services": {
+    "hero": {
+      "headline": "Compassionate Care, Close to Home",
+      "subheadline": "From personal care to companionship and daily support — our caregivers are here to help Houston seniors live safely, comfortably, and with dignity."
+    },
+    "intro": {
+      "headline": "What Caregivers Do Every Day",
+      "body": "Our caregivers aren't just helpers — they're trusted companions who show up with warmth, skill, and genuine care. From the moment they arrive, your loved one is in good hands."
+    },
+    "family_services": [
+      {
+        "id": "fs1",
+        "title": "Personal Care",
+        "tagline": "Dignity in every detail",
+        "description": "As a paid family caregiver, you'll assist your loved one with the personal care they need every day — with the comfort of knowing it's someone they already trust. Vibrant Care trains you on everything.",
+        "duties": [
+          {
+            "id": "fd1",
+            "text": "Bathing and showering assistance"
+          },
+          {
+            "id": "fd2",
+            "text": "Dressing and grooming support"
+          },
+          {
+            "id": "fd3",
+            "text": "Toileting and incontinence care"
+          },
+          {
+            "id": "fd4",
+            "text": "Oral hygiene and skincare"
+          },
+          {
+            "id": "fd5",
+            "text": "Mobility and transfer assistance"
+          },
+          {
+            "id": "fd6",
+            "text": "Morning and bedtime routines"
+          }
+        ]
+      },
+      {
+        "id": "fs2",
+        "title": "Companionship & Social Interaction",
+        "tagline": "Connection that brightens every day",
+        "description": "Family caregivers provide the most meaningful companionship of all. You'll spend quality time with your loved one — sharing meals, conversations, and activities — while getting compensated for your time.",
+        "duties": [
+          {
+            "id": "fd7",
+            "text": "Conversation and emotional support"
+          },
+          {
+            "id": "fd8",
+            "text": "Accompanying to appointments"
+          },
+          {
+            "id": "fd9",
+            "text": "Games, hobbies, and activities"
+          },
+          {
+            "id": "fd10",
+            "text": "Reading and storytelling"
+          },
+          {
+            "id": "fd11",
+            "text": "Community outings and errands"
+          },
+          {
+            "id": "fd12",
+            "text": "Reducing isolation and loneliness"
+          }
+        ]
+      },
+      {
+        "id": "fs3",
+        "title": "Meal Preparation & Grocery Shopping",
+        "tagline": "Nourishment made with love",
+        "description": "You already cook for your family — now you can get paid for it. Family caregivers help plan and prepare nutritious meals tailored to their loved one's dietary needs and preferences.",
+        "duties": [
+          {
+            "id": "fd13",
+            "text": "Meal planning and preparation"
+          },
+          {
+            "id": "fd14",
+            "text": "Grocery shopping and errands"
+          },
+          {
+            "id": "fd15",
+            "text": "Special diet and nutrition support"
+          },
+          {
+            "id": "fd16",
+            "text": "Hydration reminders"
+          },
+          {
+            "id": "fd17",
+            "text": "Kitchen safety and cleanliness"
+          },
+          {
+            "id": "fd18",
+            "text": "Snack and supplement preparation"
+          }
+        ]
+      },
+      {
+        "id": "fs4",
+        "title": "Supervision & Safety",
+        "tagline": "Peace of mind around the clock",
+        "description": "As a family caregiver, you provide the watchful eye your loved one needs to stay safe at home. Vibrant Care trains you to recognize risks and respond with confidence.",
+        "duties": [
+          {
+            "id": "fd19",
+            "text": "Fall prevention and monitoring"
+          },
+          {
+            "id": "fd20",
+            "text": "Medication reminders"
+          },
+          {
+            "id": "fd21",
+            "text": "Emergency response readiness"
+          },
+          {
+            "id": "fd22",
+            "text": "Cognitive and memory support"
+          },
+          {
+            "id": "fd23",
+            "text": "Home safety assessments"
+          },
+          {
+            "id": "fd24",
+            "text": "Overnight supervision when needed"
+          }
+        ]
+      },
+      {
+        "id": "fs5",
+        "title": "Light Housekeeping",
+        "tagline": "A clean home, a clear mind",
+        "description": "Keeping a tidy, comfortable home is part of great caregiving. Family caregivers assist with light housekeeping tasks that help their loved one live in a safe, pleasant environment.",
+        "duties": [
+          {
+            "id": "fd25",
+            "text": "Vacuuming, sweeping, and mopping"
+          },
+          {
+            "id": "fd26",
+            "text": "Laundry and linen changes"
+          },
+          {
+            "id": "fd27",
+            "text": "Dishes and kitchen tidying"
+          },
+          {
+            "id": "fd28",
+            "text": "Trash removal"
+          },
+          {
+            "id": "fd29",
+            "text": "Organizing living spaces"
+          },
+          {
+            "id": "fd30",
+            "text": "Light dusting and surface cleaning"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "id": "s1",
+        "title": "Personal Care",
+        "tagline": "Dignity in every detail",
+        "description": "We believe personal care is about more than just getting through the morning routine — it's about helping your loved one feel their very best. Our caregivers provide gentle, respectful assistance with all aspects of personal hygiene and daily living.",
+        "duties": [
+          {
+            "id": "d1",
+            "text": "Bathing and showering assistance"
+          },
+          {
+            "id": "d2",
+            "text": "Dressing and grooming support"
+          },
+          {
+            "id": "d3",
+            "text": "Toileting and incontinence care"
+          },
+          {
+            "id": "d4",
+            "text": "Oral hygiene and skincare"
+          },
+          {
+            "id": "d5",
+            "text": "Mobility and transfer assistance"
+          },
+          {
+            "id": "d6",
+            "text": "Morning and bedtime routines"
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Companionship & Social Interaction",
+        "tagline": "Connection that brightens every day",
+        "description": "Loneliness is one of the greatest challenges seniors face. Our caregivers bring genuine warmth, conversation, and engagement — turning ordinary days into meaningful ones. We match caregivers to your loved one's personality and interests.",
+        "duties": [
+          {
+            "id": "d7",
+            "text": "Friendly conversation and active listening"
+          },
+          {
+            "id": "d8",
+            "text": "Games, puzzles, and shared hobbies"
+          },
+          {
+            "id": "d9",
+            "text": "Reading together and storytelling"
+          },
+          {
+            "id": "d10",
+            "text": "Accompanying to appointments and outings"
+          },
+          {
+            "id": "d11",
+            "text": "Encouraging social activities and community events"
+          },
+          {
+            "id": "d12",
+            "text": "Emotional support and reassurance"
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "Meal Prep & Grocery Shopping",
+        "tagline": "Nourishing meals, every single day",
+        "description": "Good nutrition is the foundation of good health. Our caregivers plan, shop for, and prepare fresh, balanced meals tailored to your loved one's dietary needs and personal preferences — making mealtime something to look forward to.",
+        "duties": [
+          {
+            "id": "d13",
+            "text": "Nutritious meal planning and preparation"
+          },
+          {
+            "id": "d14",
+            "text": "Grocery shopping and errand runs"
+          },
+          {
+            "id": "d15",
+            "text": "Accommodating dietary restrictions and preferences"
+          },
+          {
+            "id": "d16",
+            "text": "Breakfast, lunch, dinner, and snacks"
+          },
+          {
+            "id": "d17",
+            "text": "Kitchen cleanup after meals"
+          },
+          {
+            "id": "d18",
+            "text": "Monitoring food intake and appetite changes"
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "title": "Supervision & Safety",
+        "tagline": "Peace of mind, around the clock",
+        "description": "For families who need reassurance that their loved one is safe at home, our supervision and safety service provides attentive, watchful care throughout the day. Our caregivers monitor well-being, prevent accidents, and respond quickly so your family can breathe easier.",
+        "duties": [
+          {
+            "id": "d25",
+            "text": "Continuous in-home supervision and monitoring"
+          },
+          {
+            "id": "d26",
+            "text": "Fall prevention and hazard awareness"
+          },
+          {
+            "id": "d27",
+            "text": "Medication reminders and adherence support"
+          },
+          {
+            "id": "d28",
+            "text": "Emergency response and family communication"
+          },
+          {
+            "id": "d29",
+            "text": "Wandering prevention for memory care clients"
+          },
+          {
+            "id": "d30",
+            "text": "Regular wellness check-ins and status updates"
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "title": "Light Housekeeping",
+        "tagline": "A clean, safe, comfortable home",
+        "description": "A tidy home is a safe home. Our caregivers take care of the everyday household tasks that can become difficult or overwhelming, so your loved one can relax in a clean, organized environment without worry.",
+        "duties": [
+          {
+            "id": "d19",
+            "text": "Vacuuming, sweeping, and mopping"
+          },
+          {
+            "id": "d20",
+            "text": "Laundry, folding, and putting away"
+          },
+          {
+            "id": "d21",
+            "text": "Dishes and kitchen cleaning"
+          },
+          {
+            "id": "d22",
+            "text": "Bathroom and bedroom tidying"
+          },
+          {
+            "id": "d23",
+            "text": "Trash removal and recycling"
+          },
+          {
+            "id": "d24",
+            "text": "Organizing and decluttering as needed"
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "headline": "Ready to find the right care for your family?",
+      "body": "Every family's needs are different. Let's have a conversation about what would work best for your loved one — no pressure, no obligation.",
+      "button_label": "Get a Free Consultation",
+      "secondary_label": "Call (832) 308-8532"
+    }
+  }
+}

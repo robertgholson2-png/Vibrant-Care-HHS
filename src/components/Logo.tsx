@@ -4,7 +4,7 @@ import { HeartHandshake } from "lucide-react";
 export function Logo({ light = false }: { light?: boolean }) {
   return (
     <span className="flex items-center gap-2">
-      <span className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center">
+      <span className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center shrink-0">
         <HeartHandshake className="w-5 h-5 text-primary-foreground" />
       </span>
       <span className="leading-none">

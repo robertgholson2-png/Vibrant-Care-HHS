@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Clock, Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react";
-import { nav, services, site } from "../content/site";
+import { footerServices, nav, site } from "../content/site";
 import { Logo } from "./Logo";
 
 export function Footer() {
@@ -35,8 +35,8 @@ export function Footer() {
         <div>
           <h3 className="font-sans text-xs font-semibold uppercase tracking-widest mb-5 text-white/40">Our Services</h3>
           <ul className="flex flex-col gap-2.5">
-            {services.map((s) => (
-              <li key={s.id}><Link to={`/services#${s.id}`} className="text-sm text-white/60 hover:text-white">{s.title}</Link></li>
+            {footerServices.map((s) => (
+              <li key={s.id}><Link to={`/services#${s.id}`} className="text-sm text-white/60 hover:text-white">{s.label}</Link></li>
             ))}
           </ul>
         </div>

@@ -2,20 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Brand colors (HSL). The original site's exact palette wasn't in the saved page — adjust here. */
+/* Brand colors (HSL), taken from the live vibrantcare.health stylesheet. */
 :root {
-  --background: 0 0% 100%;
-  --foreground: 200 25% 15%;
-  --primary: 174 72% 30%;
+  --background: 213 69% 97%;
+  --foreground: 0 0% 4%;
+  --primary: 211 72% 38%;
   --primary-foreground: 0 0% 100%;
-  --accent: 16 85% 62%;
+  --accent: 209 54% 50%;
   --accent-foreground: 0 0% 100%;
-  --muted: 170 25% 96%;
-  --muted-foreground: 200 10% 42%;
-  --secondary: 170 25% 90%;
+  --muted: 212 68% 95%;
+  --muted-foreground: 214 20% 38%;
+  --secondary: 211 67% 90%;
   --card: 0 0% 100%;
-  --border: 180 15% 88%;
-  --footer-bg: 200 30% 12%;
+  --border: 211 55% 85%;
+  --footer-bg: 215 72% 15%;
   --footer-fg: 0 0% 100%;
 }
 

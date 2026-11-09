@@ -16,8 +16,8 @@ export default {
         footer: { bg: c("footer-bg"), fg: c("footer-fg") },
       },
       fontFamily: {
-        heading: ["Fraunces", "Georgia", "serif"],
-        sans: ["Inter", "system-ui", "sans-serif"],
+        heading: ["Lora", "Georgia", "serif"],
+        sans: ["Nunito", "system-ui", "sans-serif"],
       },
       keyframes: {
         marquee: { "0%": { transform: "translateX(0)" }, "100%": { transform: "translateX(-50%)" } },

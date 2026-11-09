@@ -1,70 +1,77 @@
 import { useState, type FormEvent } from "react";
-import { Clock, Mail, MapPin, Phone } from "lucide-react";
-import { Container, PageHero } from "../components/Section";
-import { site } from "../content/site";
+import { Clock, HeartHandshake, Mail, MapPin, Phone } from "lucide-react";
+import { Container, h2 } from "../components/Section";
+import { openEmail, pages, site } from "../content/site";
 
-// No backend: submitting opens the visitor's email app with the message filled in.
-// To receive submissions directly, connect a form service or a serverless function.
+const c = pages.contact;
+const field = "w-full rounded-lg border border-border bg-white px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary";
+
 export default function Contact() {
   const [sent, setSent] = useState(false);
 
   function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const d = new FormData(e.currentTarget);
-    const body = [
-      `Name: ${d.get("name")}`,
-      `Phone: ${d.get("phone")}`,
-      `Email: ${d.get("email")}`,
-      `Interested in: ${d.get("interest")}`,
-      "",
-      `${d.get("message")}`,
-    ].join("\n");
-    window.location.href = `mailto:${site.email}?subject=${encodeURIComponent("Website inquiry — " + d.get("interest"))}&body=${encodeURIComponent(body)}`;
+    openEmail(`Consultation request — ${d.get("care")}`, {
+      Name: d.get("name"), Email: d.get("email"), Phone: d.get("phone"), Support: d.get("care"), Message: d.get("message"),
+    });
     setSent(true);
   }
 
-  const field = "w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary";
-
   return (
-    <>
-      <PageHero eyebrow="Contact" title="Let's talk about your family's care"
-        intro="Request a free consultation or ask us anything. No pressure, no obligation — just a caring conversation." />
-      <section className="py-20">
-        <Container className="grid grid-cols-1 lg:grid-cols-5 gap-12">
-          <form onSubmit={onSubmit} className="lg:col-span-3 bg-card border border-border rounded-2xl p-7 grid gap-5">
-            <div className="grid sm:grid-cols-2 gap-5">
-              <label className="grid gap-1.5 text-sm font-medium">Full name<input name="name" required className={field} autoComplete="name" /></label>
-              <label className="grid gap-1.5 text-sm font-medium">Phone<input name="phone" type="tel" required className={field} autoComplete="tel" /></label>
-            </div>
-            <label className="grid gap-1.5 text-sm font-medium">Email<input name="email" type="email" className={field} autoComplete="email" /></label>
-            <label className="grid gap-1.5 text-sm font-medium">I'm interested in
-              <select name="interest" className={field}>
-                <option>Family Caregiver Program</option>
-                <option>Professional Caregiver</option>
-                <option>Working as a caregiver</option>
-                <option>Something else</option>
-              </select>
-            </label>
-            <label className="grid gap-1.5 text-sm font-medium">How can we help?<textarea name="message" rows={5} className={field} /></label>
-            <p className="text-xs text-muted-foreground">Please don't include medical details here — we'll discuss those privately.</p>
-            <button type="submit" className="h-11 rounded-full px-7 bg-primary hover:bg-primary/90 text-primary-foreground text-sm font-semibold justify-self-start">Send Message</button>
-            {sent && <p className="text-sm text-primary">Your email app should open with your message. If it didn't, call us at {site.phone}.</p>}
-          </form>
-          <aside className="lg:col-span-2 flex flex-col gap-6">
+    <section className="pt-32 pb-24 bg-background">
+      <Container className="grid grid-cols-1 lg:grid-cols-2 gap-14">
+        <div>
+          <h1 className={`${h2} text-[clamp(2.25rem,4.5vw,3.5rem)]`}>{c.hero.headline}</h1>
+          <p className="text-muted-foreground text-lg leading-relaxed mb-10">{c.hero.body}</p>
+          <h2 className="font-semibold text-xl mb-5">{c.details.title}</h2>
+          <ul className="flex flex-col gap-5 mb-10">
             {[
-              { Icon: Phone, title: "Call", body: <a href={site.phoneHref} className="hover:text-primary">{site.phone}</a> },
-              { Icon: Mail, title: "Email", body: <a href={`mailto:${site.email}`} className="hover:text-primary">{site.email}</a> },
-              { Icon: MapPin, title: "Office", body: <>{site.address[0]}<br />{site.address[1]}</> },
-              { Icon: Clock, title: "Hours", body: <>{site.hours[0]}<br />{site.hours[1]}</> },
-            ].map(({ Icon, title, body }) => (
-              <div key={title} className="flex gap-4">
-                <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center shrink-0"><Icon className="w-5 h-5 text-primary" /></div>
-                <div><h2 className="font-sans font-semibold text-sm">{title}</h2><p className="text-muted-foreground text-sm">{body}</p></div>
-              </div>
+              { Icon: Phone, body: <a href={site.phoneHref} className="text-muted-foreground hover:text-primary">{site.phone}</a> },
+              { Icon: Mail, body: <a href={`mailto:${c.details.email}`} className="text-muted-foreground hover:text-primary">{c.details.email}</a> },
+              { Icon: MapPin, body: <span className="text-muted-foreground">{site.address.join(", ")}</span> },
+              { Icon: Clock, body: <span className="text-muted-foreground">{site.hours.join(" · ")}</span> },
+            ].map(({ Icon, body }, i) => (
+              <li key={i} className="flex items-center gap-4">
+                <span className="w-10 h-10 shrink-0 rounded-full bg-secondary text-primary grid place-items-center"><Icon className="w-4 h-4" /></span>{body}
+              </li>
             ))}
-          </aside>
-        </Container>
-      </section>
-    </>
+          </ul>
+          {[
+            { Icon: MapPin, t: c.details.service_area_title, b: c.details.service_area_body },
+            { Icon: HeartHandshake, t: c.details.consultation_title, b: c.details.consultation_body },
+          ].map(({ Icon, t, b }) => (
+            <div key={t} className="flex gap-4 mb-6">
+              <span className="w-10 h-10 shrink-0 rounded-full bg-secondary text-primary grid place-items-center"><Icon className="w-4 h-4" /></span>
+              <div><h3 className="font-semibold text-foreground mb-1">{t}</h3><p className="text-muted-foreground text-sm leading-relaxed">{b}</p></div>
+            </div>
+          ))}
+        </div>
+
+        <div className="bg-card border border-border rounded-2xl p-6 sm:p-9 shadow-sm self-start">
+          <h2 className="font-semibold text-2xl mb-2">{c.form.title}</h2>
+          <p className="text-muted-foreground mb-7">{c.form.body}</p>
+          {sent ? (
+            <div className="rounded-xl bg-secondary p-6 text-center text-foreground font-medium leading-relaxed">
+              {c.form.success_message} If your email app didn't open, call us at {site.phone}.
+            </div>
+          ) : (
+            <form onSubmit={onSubmit} className="grid gap-5">
+              <label className="grid gap-1.5 text-sm font-semibold">{c.form.name_label}<input name="name" required className={field} autoComplete="name" /></label>
+              <div className="grid sm:grid-cols-2 gap-5">
+                <label className="grid gap-1.5 text-sm font-semibold">{c.form.email_label}<input name="email" type="email" required className={field} autoComplete="email" /></label>
+                <label className="grid gap-1.5 text-sm font-semibold">{c.form.phone_label}<input name="phone" type="tel" className={field} autoComplete="tel" /></label>
+              </div>
+              <label className="grid gap-1.5 text-sm font-semibold">{c.form.care_label}
+                <select name="care" className={field}>{c.form.care_options.map((o) => <option key={o}>{o}</option>)}</select>
+              </label>
+              <label className="grid gap-1.5 text-sm font-semibold">{c.form.message_label}<textarea name="message" rows={5} className={field} /></label>
+              <p className="text-xs text-muted-foreground">Please don't include medical details here — we'll discuss those privately.</p>
+              <button type="submit" className="w-full h-11 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold">{c.form.submit_label}</button>
+            </form>
+          )}
+        </div>
+      </Container>
+    </section>
   );
 }
