@@ -15,20 +15,20 @@ export const site = {
   social: { facebook: "", instagram: "", linkedin: "" },
 };
 
-// Swap these for real photos (e.g. "/images/home-hero.jpg") once you have them.
+// Photos from the original vibrantcare.health site (Getty stock licensed through GoDaddy).
 export const images = {
-  homeHero: "/images/home-hero.svg",
-  homeCta: "/images/home-cta-split.svg",
-  aboutHero: "/images/about-hero.svg",
-  aboutStory: "/images/about-story.svg",
-  careersHero: "/images/careers-hero.svg",
-  servicesHero: "/images/services-hero.svg",
+  homeHero: "/images/home-hero.jpg",
+  homeCta: "/images/home-cta-split.jpg",
+  aboutHero: "/images/about-hero.jpg",
+  aboutStory: "/images/about-story.jpg",
+  careersHero: "/images/careers-hero.jpg",
+  servicesHero: "/images/services-hero.jpg",
   services: {
-    s1: "/images/services-personal-care.svg",
-    s2: "/images/services-companionship.svg",
-    s3: "/images/services-meal-prep.svg",
-    s4: "/images/services-housekeeping.svg",
-    s5: "/images/services-supervision-safety.svg",
+    s1: "/images/services-personal-care.jpg",
+    s2: "/images/services-companionship.jpg",
+    s3: "/images/services-meal-prep.jpg",
+    s4: "/images/services-housekeeping.jpg",
+    s5: "/images/services-supervision-safety.jpg",
   } as Record<string, string>,
 };
 
